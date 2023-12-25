@@ -10,12 +10,12 @@ def is_enabled(value, default):
     else:
         return default
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-ADMINS = int(environ.get("ADMINS", ""))
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "chatgptvjbot")
-OPENAI_API = environ.get("OPENAI_API", "")
+API_ID = int(environ.get("23684657", ""))
+API_HASH = environ.get("471fbeeb71b5fbf9246fc7342bb6754a", "")
+BOT_TOKEN = environ.get("6626123049:AAGedwHNjclqCji0diwuo6Z5llmJcppgb3Q", "")
+LOG_CHANNEL = int(environ.get("-1002046525344", ""))
+ADMINS = int(environ.get("1410065122", ""))
+DB_URI = environ.get("DB_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "sushankm16")
+OPENAI_API = environ.get("OPENAI_API", "sk-msym9N9zmWvNABnaRUo1T3B1bkF Jjkn8Y1nvEYgM1kr5yIqg")
 AI = is_enabled((environ.get("AI","True")), False)
